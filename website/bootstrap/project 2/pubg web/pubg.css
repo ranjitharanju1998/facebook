@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko',sans-serif;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+header{
+    background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.hindustantimes.com/tech/img/2022/06/22/960x540/1_xPre_5HZeoTKyKaZNSRLuQ_1614189338678_1614189346606_1655915804081.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: right top;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+nav img{
+    width: 75px;
+    height: auto;
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    word-spacing: 3px;
+}
+nav ul li a:hover{
+    color: #ffff;
+}
+.btn button{
+    padding: 5px 24px;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffff52;
+    border: 0;
+    margin-right: 10px;
+}
+.btn button:hover{
+    background-color: #ffff2a;
+}
+.burger{
+display: none;
+cursor: pointer;
+}
+.burger div{
+    width: 22px;
+    height: 2px;
+    background-color: #eee;
+    margin: 4px;
+    transition: all .3s ease;
+}
+.title{
+    margin-top: 13rem;
+    padding-left: 8rem;
+}
+.title h1{
+    font-size: 64px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+.title h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    color:#ceecce;
+    margin: 10px 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800;
+}
+.title button{
+    padding: 5px 24px;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffff5a;
+    border: 0;
+}
+.title button:hover{
+    background-color: #ffff2a;
+}
+.container h1{
+    margin-top: 50px;
+}
+.awm{
+    margin-top: 20px;
+}
+.sniper{
+    margin-top: 20px;
+}
+.m416{
+    margin-top: 20px;
+}
+.buggy{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.para{
+    margin-top: 15px;
+}
+.para1{
+    margin-top: 15px;
+}
